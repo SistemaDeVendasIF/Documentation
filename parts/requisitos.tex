@@ -4,7 +4,7 @@
     \myhline
     Identificação:& RF-01\\
     \myhline
-    Nome:&Gerenciar o registro dos produtos em estoque.\\
+    Nome:&Gerenciar o registro de calçados.\\
     \myhline
     Data de Criação:&28/02/2018\\
     \myhline
@@ -14,7 +14,7 @@
     \myhline
     \multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
     \myhline
-    \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}Os produtos devem ser cadastrados com os seguintes dados: marca, numero, modelo, cor, fornecedor, material, código de barras, gênero,tipo(infantil, jovem, adulto), quantidade em estoque, mostrar uma listagem de produtos com marca, modelo e numero ao clicar no produto todos os atributos devem ser mostrados.\vspace{0.2cm}}}\\
+    \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}Os produtos devem ser cadastrados com os seguintes dados: marca, número, modelo, tipo(ex:esportivo,casual, etc...), cor, fornecedor, material, código de barras, gênero,tipo(infantil, jovem, infanto-juvenil, adulto), quantidade em estoque. Mostrar uma listagem de produtos com marca, modelo e número ao clicar no produto todos os atributos devem ser mostrados. Possibilitar busca por número do calçado, modelo ou tipo.\vspace{0.2cm}}}\\
     \myhline
  \end{tabular*}\vspace{0.5cm}
  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}V{2.5}gV{2.5}lV{2.5}}
@@ -66,7 +66,7 @@
 	\myhline
 	\multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
 	\myhline
-	\multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}Deverá ser possível cadastrar cidade, estado ,CEP, logradouro,bairro,cidade e numero (opcional). O endereço deverá ser vinculado a pelo menos um cliente ou fornecedor. Os endereço serão visíveis, no registro ao qual estão vinculados.  \vspace{0.2cm}}}\\
+	\multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}Deverá ser possível cadastrar cidade, estado ,CEP, logradouro,bairro,cidade e número (opcional). O endereço deverá ser vinculado a pelo menos um cliente ou fornecedor. Os endereço serão visíveis, no registro ao qual estão vinculados.  \vspace{0.2cm}}}\\
 	\myhline
 \end{tabular*}\\
 	\vspace{0.5cm}
@@ -105,79 +105,5 @@
     \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}Ao registrar uma entrega deve ser feito um cadastro do endereço e vincular esse endereço ao cliente, ou selecionar um endereço já cadastrado e vinculado á um cliente, e quem foi responsável pela entrega, a entrega deve ser vinculada a venda.\vspace{0.2cm}}}\\
     \myhline
  \end{tabular*}\\
-\vspace{0.5cm}
-\section{Requisitos Não Funcionais}
- \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}V{2.5}gV{2.5}lV{2.5}}
-    \myhline
-    Identificação:& RNF-01\\
-    \myhline
-    Nome:&Portabilidade\\
-    \myhline
-    Data de Criação:&07/03/2018\\
-    \myhline
-    Local:&IF Goiano Campus Ceres – Lab.03 PC.27\\
-    \myhline
-    Responsável:&Equipe Inteira\\    
-    \myhline
-    \multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
-    \myhline
-    \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}O programa deve rodar em Linux, Mac e Windows.\vspace{0.2cm}}}\\
-    \myhline
- \end{tabular*}\\
-\vspace{0.5cm}
- \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}V{2.5}gV{2.5}lV{2.5}}
-    \myhline
-    Identificação:& RNF-02\\
-    \myhline
-    Nome:&Interoperabilidade\\
-    \myhline
-    Data de Criação:&07/03/2018\\
-    \myhline
-    Local:&IF Goiano Campus Ceres – Lab.03 PC.27\\
-    \myhline
-    Responsável:&Luana Queiros\\    
-    \myhline
-    \multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
-    \myhline
-    \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}Comunicar com os correiros para obter endereço via cep.\vspace{0.2cm}}}\\
-    \myhline
- \end{tabular*}\\
-\vspace{0.5cm}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}V{2.5}gV{2.5}lV{2.5}}
-    \myhline
-    Identificação:& RNF-03\\
-    \myhline
-    Nome:&Tecnologias\\
-    \myhline
-    Data de Criação:&07/03/2018\\
-    \myhline
-    Local:&IF Goiano Campus Ceres – Lab.03 PC.27\\
-    \myhline
-    Responsável:&Equipe Inteira\\    
-    \myhline
-    \multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
-    \myhline
-    \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}java(openjdk 1.9), mysql(5.9)(SGBD), latex(texlive), netbeans(IDE), workbench(MER)\vspace{0.2cm}}}\\
-    \myhline
- \end{tabular*}\\
-\vspace{0.5cm}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}V{2.5}gV{2.5}lV{2.5}}
-    \myhline
-    Identificação:& RNF-04\\
-    \myhline
-    Nome:&Entrega\\
-    \myhline
-    Data de Criação:&07/03/2018\\
-    \myhline
-    Local:&IF Goiano Campus Ceres – Lab.03 PC.27\\
-    \myhline
-    Responsável:&Equipe Inteira\\    
-    \myhline
-    \multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
-    \myhline
-    \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}O produto deve ser entregue no maximo até 01/03/2019\vspace{0.2cm}}}\\
-    \myhline
- \end{tabular*}\\
-\vspace{0.5cm}
 
 \end{center}
