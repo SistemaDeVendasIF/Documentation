@@ -2,22 +2,24 @@
 \newcolumntype{e}{>{\columncolor{gray!45}}c}
 \newcommand{\myhline}{\Xhline{2.5\arrayrulewidth}}
 \newcommand{\addrequisito}[6]{
-	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}V{2.5}gV{2.5}lV{2.5}}
-		\myhline
-		Identificação:&#1\\
-		\myhline
-		Nome:&#2\\
-		\myhline
-		Data de Criação:&#3\\
-		\myhline
-		Local:&#4\\
-		\myhline
-		Responsável:&#5\\    
-		\myhline
-		\multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
-		\myhline
-		\multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}#6\vspace{0.2cm}}}\\
-		\myhline
-	\end{tabular*}\\
-	\vspace{0.5cm}}
+    \begin{table}[H]
+        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}V{2.5}gV{2.5}lV{2.5}}
+            \myhline
+            Identificação:&#1\\
+            \myhline
+            Nome:&#2\\
+            \myhline
+            Data de Criação:&#3\\
+            \myhline
+            Local:&#4\\
+            \myhline
+            Responsável:&#5\\    
+            \myhline
+            \multicolumn{2}{V{2.5}eV{2.5}}{Especificações}\\
+            \myhline
+            \multicolumn{2}{V{2.5}lV{2.5}}{\parbox{0.95\textwidth}{\vspace{0.2cm}#6\vspace{0.2cm}}}\\
+            \myhline
+        \end{tabular*}\\
+    \end{table}
+}
 

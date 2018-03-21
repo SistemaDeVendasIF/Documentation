@@ -35,10 +35,39 @@
 		{Ao registrar uma venda se deve informar os produtos e o cliente que está realizando a compra, o sistema deve calcular o valor total da compra, e apresentar um campo para informar o desconto, data e hora da venda devem ser preenchidas automaticamente, funcionário responsável pela venda, venda paga(sim ou não). Depois disso o programa irá requisitar a quantidade de parcelas e o tipo de pagamento, o sistema deve também perguntar se há uma entrega caso haja deve-se requisitar o cadastro da mesma. Deve ser mostrado uma listagem de vendas, onde será possível buscar por cliente e data.}
 		
 	\addrequisito{RF-06}
-		{Gerenciar os registros de entregas.}
+		{Gerenciar os registros das entregas.}
 		{28/02/2018}
 		{IF Goiano Campus Ceres – Lab.03 PC.27}
 		{Matheus Henrique Passos}
 		{Ao registrar o sistema deve solicitar o endereço, responsável pela entrega e nome do receptor.}
-
+    \addrequisito{RF-07}
+		{Gerenciar os registros das compras.}
+		{28/02/2018}
+		{IF Goiano Campus Ceres – Lab.03 PC.27}
+		{Matheus Henrique Passos}
+		{O sistema deve solicitar ao usuário as seguintes informações: produto, fornecedor,valor por unidade,quantidade. Preenchida o software deve sugerir um valor total que o usuário irá confirmar ou mudar antes de finalizar o cadastro.}
+    \addrequisito{RF-08}
+        {Gerar relatório de vendas.}
+		{09/03/2018}
+		{IF Goiano Campus Ceres – Lab.03 PC.27}
+		{Matheus Henrique Passos}
+		{O sistema deve gerar um relatório de vendas realizadas por estação do ano, as vendas irão conter a quantidade de sapatos de um determinado modelo e cor, a marca mais vendida e qual modelo foi e marca foi o mais vendido para cada sexo e faixa de idade. O relatório deve ser emitido no formato PDF}
+    \addrequisito{RF-09}
+        {Gerar nota fiscal NFC-e}
+		{09/03/2018}
+		{IF Goiano Campus Ceres – Lab.03 PC.27}
+		{Matheus Henrique Passos}
+		{O sistema deve gerar uma nota fiscal eletrônica contendo as informações dos produtos comprados com o nome e CPF do cliente, informações dos tributos totais, e um QRCode para consulta.}
+    \addrequisito{RF-10}
+        {Registro de encomendas}
+		{09/03/2018}
+		{IF Goiano Campus Ceres – Lab.03 PC.27}
+		{Denis Vitoriano}
+		{Caso o produto não esteja em estoque o funcionário da loja deve ser capaz de registrar uma ou mais encomendas para o cliente, provendo as seguintes informações para o sistema o produto que o cliente deseja, o fornecedor e o cliente que requisitou o produto,uma vez que produto for pedido ao fornecedor o usuário deve ser capaz de inserir uma data prevista para a entrega do mesmo. A encomenda terá um campo onde estará a situação da mesma}
+        \addrequisito{RF-11}
+        {Relatório de encomendas}
+		{09/03/2018}
+		{IF Goiano Campus Ceres – Lab.03 PC.27}
+		{Matheus Henrique Passos}
+		{O relatório de encomendas deve ser gerado todos os dias 1h antes do fim do horário comercial, caso haja alguma encomenda pendente(ainda foi pedida ao fornecedor) apenas. Nesse relatório deve conter o e-mail e telefone do fornecedor, o produto e a quantidade a ser pedida. }
 \end{center}
